@@ -24,3 +24,8 @@
 - Legend: Each axes can have a legend to give more information about the data.
 ![Matplotlib Plot Anatomy](./images/matplotlib-plot-anatomy.png)
 
+## Plotting from pandas
+- Which on should you use? (pyplot vs matplotlib OO method)
+  - Documentation on matplotlib encourages the explicit OO method. When doing anything advanced this is definitely the way to go.
+  - When plotting something quickly it is ok to use the pyplot method.
+
