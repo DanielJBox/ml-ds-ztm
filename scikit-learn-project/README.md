@@ -31,4 +31,22 @@
 - This machine leaning model can also be called an algorithm.
 - To train this model we need to give it lots of data
 - Machine Learning is a computer creating it's own model, it's own function, it's own code, based on the inputs and outputs
--
+
+## Data Science - Clean, Transform, Reduce
+- To make our data more useful we want to take these steps: 
+  - Clean Data > Transform Data -> Reduce Data.
+- Clean Data:
+  - Remove and replace data. Eliminate missing values
+  - Remove a row if it has missing value is one option
+  - Or we could calculate average values for the missing fields
+  - Remove outliers in our data
+- Transform Data:
+  - Computers don't understand concepts
+  - So a computer can understand our data we need to convert it to something it understands
+  - We need to convert everything to numbers, Even things like colors need to be come a number
+- Reduce Data:
+  - The more data we need to compute the more cpu power / energy / cost needed to run computations
+  - If we can get the same result on less data and time then it will save us money and time
+  - Sometimes called Dimensionality Reduction or Column Reduction
+  - The more columns you have the slower computation will be. Maybe there are some irrelevant columns that can be removed.
+  - 
